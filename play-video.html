@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Video</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="./images/menu.png" class="menu-icon" alt="">
+            <img src="./images/logoo.png" class="logo" alt="">
+        </div>
+        <div class="nav-mid flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="./images/search.png" alt="">
+            </div>
+            <img src="./images/voice-search.png" class="mic-icon" alt="">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="./images/upload.png" alt="">
+            <img src="./images/more.png" alt="">
+            <img src="./images/notification.png" alt="">
+            <div class="dropdown">
+                <img class="user-icon" src="./images/megan.png" alt="">
+                <div id="myDropdown" class="dropdown-content">
+                    <img src="./images/upload.png" alt="">
+                    <img src="./images/more.png" alt="">
+                    <img src="./images/notification.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-video">
+                <video controls autoplay>
+                    <source src="./images/video.mp4" type="video/mp4">
+                </video>
+
+                <div class="tags">
+                    <a href="">#lorem</a>
+                    <a href="">#ipsum</a>
+                    <a href="">#irol</a>
+                    <a href="">#kison</a>
+                </div>
+
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing</h3>
+                <div class="play-video-info">
+                    <p>15k views &bull; 2 days ago</p>
+                    <div>
+                        <a href=""><img src="./images/like.png" alt="">125</a>
+                        <a href=""><img src="./images/dislike.png" alt="">8</a>
+                        <a href=""><img src="./images/share.png" alt="">Share</a>
+                        <a href=""><img src="./images/save.png" alt="">Save</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="publisher">
+                    <img src="./images/tom.png" alt="">
+                    <div>
+                        <p>Lorem Ipsum</p>
+                        <span>780k Subscribers</span>
+                    </div>
+                    <button type="button">Subscribe</button>
+                </div>
+
+                <div class="vid-desc">
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, doloremque.</p>
+                    <hr>
+                    <h4>143 Comments</h4>
+
+                    <div class="add-comment">
+                        <img src="./images/megan.png" alt="">
+                        <input type="text" placeholder="Write comment..." name="" id="">
+                    </div>
+
+                    <div class="old-comment">
+                        <img src="./images/gerard.png" alt="">
+                        <div>
+                            <h3>Gerard Benis <span>1 day ago</span></h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga omnis tenetur veritatis facilis velit iure debitis. </p>
+                            <div class="comment-action">
+                                <img src="./images/like.png">
+                                <span>100</span>
+                                <img src="./images/dislike.png">
+                                <span>0</span>
+                                <span>Reply</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="./images/cameron.png" alt="">
+                        <div>
+                            <h3>Cameron Dister<span>2 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga omnis tenetur veritatis facilis velit iure debitis. Ex ipsum aliquid labore quibusdam. Voluptatum repellat repudiandae hic.</p>
+                            <div class="comment-action">
+                                <img src="./images/like.png">
+                                <span>372</span>
+                                <img src="./images/dislike.png">
+                                <span>8</span>
+                                <span>Reply</span>
+                                <a href="">All Replies</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr id="comment-below">
+
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail2.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail3.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail4.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail5.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail6.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail7.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a class="small-thumbnail" href=""><img src="./images/thumbnail8.png"></a>
+                    <div class="vid-info">
+                        <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p>Lorem Ipsum</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
